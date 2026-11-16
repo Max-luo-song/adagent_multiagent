@@ -1,0 +1,21 @@
+{
+  "date_utc": "2026-11-16",
+  "python_syntax_files": 508,
+  "checks": [
+    {
+      "command": "python -B scripts/pipeline/check_nexus_cruise_guidance.py",
+      "status": "passed",
+      "scenarios": [
+        "slow_neural_prior",
+        "cutin",
+        "stop_and_go"
+      ]
+    },
+    {
+      "command": "python -B scripts/pipeline/check_nexus_replay.py",
+      "status": "passed",
+      "tests": 2
+    }
+  ],
+  "scope": "Existing local environment checks; no new model training, full dataset evaluation, or GPU rendering run."
+}

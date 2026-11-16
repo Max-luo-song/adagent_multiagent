@@ -1,0 +1,86 @@
+{
+  "status": "complete",
+  "video_scope": "synthetic three-car asset insertion; derived road-adapted trajectories; not original059 reconstruction",
+  "background_scene_index": 121,
+  "source_trajectory_scene_index": 59,
+  "new_background_training_iterations": 8000,
+  "Nexus_training_updates": 0,
+  "geometry_audit": {
+    "normal": {
+      "accepted": true,
+      "actual_3D_body_overlap_samples": 0,
+      "actual_3D_body_offroad_samples": 0,
+      "normal_wrong_lane_samples": 0,
+      "minimum_3D_box_XY_polygon_gap_m": 0.6644422684415094,
+      "C_complete_target_lane_1s_hold_start_s": null,
+      "C_final_in_target_lane": false,
+      "C_rear_fully_passes_B_front_s": null,
+      "projected_actor_centers_inside_image": 243,
+      "expected_visible_center_checks": 243,
+      "scope": "actual rendered 3D bounding boxes projected to road XY, 81 samples; no continuous-time or full traffic-law guarantee"
+    },
+    "event": {
+      "accepted": true,
+      "actual_3D_body_overlap_samples": 0,
+      "actual_3D_body_offroad_samples": 0,
+      "normal_wrong_lane_samples": 0,
+      "minimum_3D_box_XY_polygon_gap_m": 0.7478950163729766,
+      "C_complete_target_lane_1s_hold_start_s": 4.0,
+      "C_final_in_target_lane": true,
+      "C_rear_fully_passes_B_front_s": 5.2,
+      "projected_actor_centers_inside_image": 243,
+      "expected_visible_center_checks": 243,
+      "scope": "actual rendered 3D bounding boxes projected to road XY, 81 samples; no continuous-time or full traffic-law guarantee"
+    }
+  },
+  "videos": {
+    "normal_with_bev.mp4": {
+      "frames": 81,
+      "fps": 10,
+      "size": [
+        1320,
+        640
+      ],
+      "sha256": "5bff6fe3ddd862cce8a2c35a2f5b8829e74b8249f197b6fd76db9fcdc384492d"
+    },
+    "comparison.mp4": {
+      "frames": 81,
+      "fps": 10,
+      "size": [
+        2640,
+        640
+      ],
+      "sha256": "dcf312c3b5de258c534c635f84df0b0b4e966d785e5747f9224637dac1248335"
+    },
+    "event_with_bev.mp4": {
+      "frames": 81,
+      "fps": 10,
+      "size": [
+        1320,
+        640
+      ],
+      "sha256": "194c5e03a30d0a33ceaf425570dc2df51508b77fdaffe04d5912936ef1b2296c"
+    },
+    "normal_clean_3dgs.mp4": {
+      "frames": 81,
+      "fps": 10,
+      "size": [
+        960,
+        540
+      ],
+      "sha256": "95a81786b9f1fad13c726dce24f0d529c5c80a29b69361c0b69901824d3a175f"
+    },
+    "event_clean_3dgs.mp4": {
+      "frames": 81,
+      "fps": 10,
+      "size": [
+        960,
+        540
+      ],
+      "sha256": "9fb1f16c27ffada7a192caafc0a29de3ad8c7fdf175ef09e1cd63d711a8bbef5"
+    }
+  },
+  "background_novel_view_quality_fully_solved": false,
+  "strict_causal_chain_proven": false,
+  "full_scene_safety_proven": false
+}

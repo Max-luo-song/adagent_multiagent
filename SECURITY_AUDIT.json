@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-11-16T09:10:14.929810+00:00",
+  "rules": [
+    "private_key",
+    "openai_style_key",
+    "github_token",
+    "gitlab_token",
+    "huggingface_token",
+    "aws_access_key",
+    "google_api_key",
+    "slack_token",
+    "jwt_token",
+    "url_password",
+    "literal_secret",
+    "bearer_token"
+  ],
+  "redactions": [],
+  "excluded_by_reason": {
+    "non_source_extension": 375,
+    "over_3_MiB": 2,
+    "credential_or_backup_name": 2
+  },
+  "copied_source_files": 4588,
+  "git_history_included": false,
+  "nested_git_directories_included": false,
+  "source_files_modified_by_export": false,
+  "notebook_outputs_included": false,
+  "remaining_detected_secrets": 0,
+  "scope": "rule-based text and file admission checks; not a claim to detect every possible secret"
+}

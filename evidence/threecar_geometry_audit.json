@@ -1,0 +1,28 @@
+{
+  "normal": {
+    "accepted": true,
+    "actual_3D_body_overlap_samples": 0,
+    "actual_3D_body_offroad_samples": 0,
+    "normal_wrong_lane_samples": 0,
+    "minimum_3D_box_XY_polygon_gap_m": 0.6644422684415094,
+    "C_complete_target_lane_1s_hold_start_s": null,
+    "C_final_in_target_lane": false,
+    "C_rear_fully_passes_B_front_s": null,
+    "projected_actor_centers_inside_image": 243,
+    "expected_visible_center_checks": 243,
+    "scope": "actual rendered 3D bounding boxes projected to road XY, 81 samples; no continuous-time or full traffic-law guarantee"
+  },
+  "event": {
+    "accepted": true,
+    "actual_3D_body_overlap_samples": 0,
+    "actual_3D_body_offroad_samples": 0,
+    "normal_wrong_lane_samples": 0,
+    "minimum_3D_box_XY_polygon_gap_m": 0.7478950163729766,
+    "C_complete_target_lane_1s_hold_start_s": 4.0,
+    "C_final_in_target_lane": true,
+    "C_rear_fully_passes_B_front_s": 5.2,
+    "projected_actor_centers_inside_image": 243,
+    "expected_visible_center_checks": 243,
+    "scope": "actual rendered 3D bounding boxes projected to road XY, 81 samples; no continuous-time or full traffic-law guarantee"
+  }
+}
