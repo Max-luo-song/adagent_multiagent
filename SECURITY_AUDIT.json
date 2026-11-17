@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "created_at_utc": "2026-11-16T09:10:14.929810+00:00",
+  "created_at_utc": "2026-11-17T04:01:18.264956+00:00",
   "rules": [
     "private_key",
     "openai_style_key",
@@ -21,11 +21,17 @@
     "over_3_MiB": 2,
     "credential_or_backup_name": 2
   },
-  "copied_source_files": 4588,
+  "copied_source_files": 2333,
   "git_history_included": false,
   "nested_git_directories_included": false,
-  "source_files_modified_by_export": false,
+  "source_files_modified_by_export": true,
   "notebook_outputs_included": false,
   "remaining_detected_secrets": 0,
-  "scope": "rule-based text and file admission checks; not a claim to detect every possible secret"
+  "scope": "rule-based text and file admission checks; not a claim to detect every possible secret",
+  "delivery_scope": "Nexus-only; 3DGS construction excluded",
+  "modified_delivery_files": [
+    "nexus_3dgs/__init__.py",
+    "scripts/pipeline/check_nexus_timed_event.py"
+  ],
+  "original_development_workspace_modified": false
 }

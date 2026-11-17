@@ -44,6 +44,7 @@ def main():
             'ego_and_other_futures_free':True,'normal_reverse_lateral_brake_endpoints_checked':True,
             'invalid_time_behavior_distance_and_presence_rejected':True}
     path=ROOT/'artifacts/nexus_3dgs/timed_event_20261026/compiler_checks.json'
+    path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result))
 
 

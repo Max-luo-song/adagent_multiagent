@@ -55,3 +55,8 @@ login-codex.sh*
 *.mov
 *.npz
 *.npy
+
+# 3DGS construction is outside this repository scope.
+/Omniscenegraph/
+/scripts/pipeline/*3dgs*
+/scripts/pipeline/*gaussian*
